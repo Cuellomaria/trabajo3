@@ -1,0 +1,41 @@
+*{margin: 0;
+padding: 0;}
+
+/* header */
+header{display: flex;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+width: 100%;
+padding: 4em 0em 4em 0em;
+justify-content: space-around;
+background-color: aqua;
+align-items: center;}
+
+.LH{display: flex;
+    align-content: center;}
+.lark{display: flex;
+align-items: center;
+font-weight: bolder;}
+
+.img1{height: 12%;
+    width: 12%;}
+
+ul{display: flex;
+text-decoration-style: none;
+list-style-type: none;}
+li{padding: 1em 1em;}
+a{display: flex;
+text-decoration: none;
+color: #000000;}
+
+
+.b1{color: white;
+background-color: blue;
+border-radius: 2em;
+padding: 1em 2.5em;
+
+border: none;}
+
+
+
+
+/* seccion 1 */
