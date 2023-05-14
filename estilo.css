@@ -102,7 +102,7 @@ width: 100%;}
 
 .FLT{margin-left: 3em;}
 
-.FL{font-size: 3rem;}
+.FL{font-size: 2.8rem;}
 .lorendos{width: 40%;
 text-align: justify;
 margin-right: 4em;}
@@ -127,9 +127,9 @@ margin-top: 1em;}
 
 .ulssb{display: flex;
     justify-content: space-between;
-    padding: 4em 0em 4em 0em;
+    padding: 5em 0em 6em 0em;
     margin-left: 4em;
-    margin-right: 10em;
+    margin-right: 6em;
     align-items: center;}
 
 .b3{border: 0.1em solid rgb(68, 65, 65);
@@ -144,7 +144,7 @@ background-color: white;}
 
 .tercerass{display: flex;
 background-color: rgba(245, 245, 245, 0.971);
-padding: 4em;
+padding: 4em; 
 justify-content: center;}
 
 .tressec{width: 100%;
@@ -163,7 +163,7 @@ margin-left: 4em;}
     margin-bottom:1.5em;
     width: 85%;}
 
-.htres{font-size: 3rem;
+.htres{font-size: 2.8rem;
 margin-top: 1em;}
 
 /* seccion 4 */
@@ -181,11 +181,26 @@ padding: 4em 4em;}
 
 .bcua{ color: white;
     background-color: rgba(0, 0, 0, 0.919);
-   border-radius: 6em;
-    padding: 0.6em 1em;
+   border-radius: 4em;
+    padding: 0.6em 0.9em;
     font-size: 1.8rem;
     border: none;
 font-weight: bolder;}
 
-.cuartbb{justify-content: center;}
+.hcuab{margin-top: 0.5em;
+margin-bottom: 0.5em;
+font-size: 2.5rem;}
 
+/* seccion 5 */
+
+.quintass{display: flex;
+justify-content: center;
+height: auto;}
+
+
+
+
+
+.imgss5{border-radius: 1.5em;
+width: 80%;
+height: 80%;}
