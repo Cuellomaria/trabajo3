@@ -108,7 +108,7 @@ text-align: justify;
 margin-right: 4em;}
 
 .cuatroimg{display: flex;
-justify-content: space-around;
+justify-content: center;
 align-items: center;
 margin-left: 3em;}
 
@@ -144,7 +144,48 @@ background-color: white;}
 
 .tercerass{display: flex;
 background-color: rgba(245, 245, 245, 0.971);
-padding: 6em 4em 6em 4em;}
+padding: 4em;
+justify-content: center;}
 
+.tressec{width: 100%;
+    justify-content: center;
+    align-items: center;
+margin-left: 4em;}
 
-.tressimg{border-radius: 1.5em;}
+.tressimg{border-radius: 1.5em;
+    width: 90%;}
+    
+.psstres{color: grey;
+        font-weight: bolder;
+        line-height: 2em;
+        font-size: 1.1rem;
+    margin-top: 1.5em;
+    margin-bottom:1.5em;
+    width: 85%;}
+
+.htres{font-size: 3rem;
+margin-top: 1em;}
+
+/* seccion 4 */
+.cuasa{display: flex;
+    justify-content: space-around;
+align-items:center;
+padding: 4em 4em;}
+.cuader{width: 45%;}
+.hcua{font-size: 3rem;}
+
+.cuartb{display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4em;}
+
+.bcua{ color: white;
+    background-color: rgba(0, 0, 0, 0.919);
+   border-radius: 6em;
+    padding: 0.6em 1em;
+    font-size: 1.8rem;
+    border: none;
+font-weight: bolder;}
+
+.cuartbb{justify-content: center;}
+
