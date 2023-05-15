@@ -93,10 +93,9 @@ margin-right: 5em;}
 
 /* seccion 2 */
 
-.ssdos{width: 100%;}
-
 .ssdosa{display: flex;
 justify-content: space-between;
+align-items: center;
 padding: 6em 0em 6em 0em;
 width: 100%;}
 
@@ -168,11 +167,12 @@ margin-top: 1em;}
 
 /* seccion 4 */
 .cuasa{display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 align-items:center;
 padding: 4em 4em;}
 .cuader{width: 45%;}
-.hcua{font-size: 3rem;}
+.hcua{font-size: 3rem;
+}
 
 .cuartb{display: flex;
     justify-content: center;
@@ -194,13 +194,33 @@ font-size: 2.5rem;}
 /* seccion 5 */
 
 .quintass{display: flex;
-justify-content: center;
-height: auto;}
+justify-content:space-around ;}
 
+.quintasec{width: 100%;
+    justify-content: space-around;
+    padding: 2em 1em 2em 5em;
+}
 
-
-
+.huno{font-size: 3rem;
+margin-bottom: 0.6em;}
+.hdos{font-size: 2.5rem;
+margin-top: 1em;
+margin-bottom: 0.6em;
+margin-right: 1.5em;}
 
 .imgss5{border-radius: 1.5em;
-width: 80%;
-height: 80%;}
+width: 90%;
+height: 95%;}
+
+.loren5{color: grey;
+font-weight: bolder;
+line-height: 2em;
+font-size: 1.1rem;
+margin-left: 3.5em;
+
+}
+/* seccion 6 */
+
+.sexssa{display: flex;}
+
+/* seccion7 */
