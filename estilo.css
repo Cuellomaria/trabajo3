@@ -248,28 +248,58 @@ margin-top: 0.5em;}
 /* seccion7 */
 .septss{display: flex;
 justify-content: space-around;
-margin-left: 6em;
-margin-top: 6em;}
+}
 
-.septssa{width: 100%;}
+.septssa{margin: 2em 2em;
+    padding: 4em 2em 4em 2em;
+}
+
 .imgss7{border-radius: 1em;
-height: 85%;
-width: 85%;}
 
-.septssb{margin-right: 2em;}
+}
+
+
+
+
+
+.b7{ color: white;
+    background-color: rgba(0, 0, 255, 0.714);
+    border-radius: 2em;
+    padding: 1em 2.5em;
+    border: none;
+    font-size:1.1rem;
+    font-weight: bolder;
+    margin-top: 1.5em;}
 
 .sep3img{display: flex;
-justify-content: space-around;} 
-.imgchicas{width: 20%;
-height: 20%;
+justify-content: space-around;
+align-items: center;
+margin-top: 1.5em;
+;
+} 
+
+.imgchicas1{width: 32%;
 border-radius: 1em;}
+
+.imgchicas2{width: 32%;
+border-radius: 1em;}
+
+.imgchicas3{width: 32%;
+border-radius: 1em;
+}
 
 /* footer */
 .foot{display: flex;
 justify-content: space-around;
 width: 100%;
+background-color: rgba(245, 245, 245, 0.971);
+padding-top: 5em;
 }
 
 .ficono{ width: 25%;}
 .UL{display: flex;
 flex-direction: column;}
+.GT{display: flex;
+    flex-direction: column;}
+.NS{display: flex;
+    flex-direction: column;}
