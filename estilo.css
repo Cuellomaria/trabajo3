@@ -177,15 +177,18 @@ padding: 4em 4em;}
 .cuartb{display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 4em;}
+    margin-left: 3em;
+padding: 2em 0em 2em 0em;}
+
+.cuartbb{margin-left: 2em;}
 
 .bcua{ color: white;
     background-color: rgba(0, 0, 0, 0.919);
-   border-radius: 4em;
+    border-radius: 4em;
     padding: 0.6em 0.9em;
     font-size: 1.8rem;
     border: none;
-font-weight: bolder;}
+   font-weight: bolder;}
 
 .hcuab{margin-top: 0.5em;
 margin-bottom: 0.5em;
@@ -220,7 +223,53 @@ margin-left: 3.5em;
 
 }
 /* seccion 6 */
+.sexb{display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 3em;
+    margin-right: 2em;
+padding: 2em 0em 4em 0em;
+}
 
-.sexssa{display: flex;}
+
+.sexbb{padding: 2em 2em 2em 2em;}
+.seximg{display: flex;
+align-items: center;}
+.sexbbb{margin-top: 0.5em;
+margin-left: 0.5em;}
+
+.imgsex{width:15% ;
+height:15% ; }
+
+.psex{color: grey;
+font-size: 1rem;
+margin-top: 0.5em;}
 
 /* seccion7 */
+.septss{display: flex;
+justify-content: space-around;
+margin-left: 6em;
+margin-top: 6em;}
+
+.septssa{width: 100%;}
+.imgss7{border-radius: 1em;
+height: 85%;
+width: 85%;}
+
+.septssb{margin-right: 2em;}
+
+.sep3img{display: flex;
+justify-content: space-around;} 
+.imgchicas{width: 20%;
+height: 20%;
+border-radius: 1em;}
+
+/* footer */
+.foot{display: flex;
+justify-content: space-around;
+width: 100%;
+}
+
+.ficono{ width: 25%;}
+.UL{display: flex;
+flex-direction: column;}
