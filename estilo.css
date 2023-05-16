@@ -247,20 +247,19 @@ margin-top: 0.5em;}
 
 /* seccion7 */
 .septss{display: flex;
+margin-top: 2em;
+padding: 4em 4em;
 justify-content: space-around;
+align-items:start;
 }
 
-.septssa{margin: 2em 2em;
-    padding: 4em 2em 4em 2em;
-}
 
 .imgss7{border-radius: 1em;
-
+ width: 90%;
 }
 
-
-
-
+.septssb{width: 60%; 
+margin-left: 2em;}
 
 .b7{ color: white;
     background-color: rgba(0, 0, 255, 0.714);
@@ -269,37 +268,68 @@ justify-content: space-around;
     border: none;
     font-size:1.1rem;
     font-weight: bolder;
-    margin-top: 1.5em;}
+    margin-top: 2em;}
 
 .sep3img{display: flex;
-justify-content: space-around;
-align-items: center;
-margin-top: 1.5em;
-;
-} 
+    justify-content: center;
+    align-items: center;
+    }
 
-.imgchicas1{width: 32%;
-border-radius: 1em;}
-
-.imgchicas2{width: 32%;
-border-radius: 1em;}
-
-.imgchicas3{width: 32%;
+.imgchica1{width: 32%;
+   margin-top: 2em;
 border-radius: 1em;
-}
+margin-right: 2em;}
+.imgchica2{width: 25%;
+    margin-top: 2em;
+ border-radius: 1em;
+ margin-right: 2em;}
+ .imgchica3{width: 34%;
+    margin-top: 2em;
+ border-radius: 1em;
+ margin-right: 2em;}
+
 
 /* footer */
 .foot{display: flex;
-justify-content: space-around;
-width: 100%;
+justify-content: space-evenly;
 background-color: rgba(245, 245, 245, 0.971);
-padding-top: 5em;
-}
+padding: 6em 3em;
+margin-bottom: 4em;}
 
+.sietep{color: grey;
+    font-weight: bolder;
+    line-height: 2em;
+    font-size: 1.1rem;
+text-align:justify;
+width: 92%;}
+    
 .ficono{ width: 25%;}
+
 .UL{display: flex;
-flex-direction: column;}
+flex-direction: column;
+}
+.pul{margin-bottom: 1em;}
+.ula{margin-bottom: 0.6em;}
+
 .GT{display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+margin-left: 6em;}
+.pgt{color: grey;
+width: 60%; 
+padding-left: 0.5em;}
+
+.fotic{display: flex;
+padding: 0.5em;}
+
 .NS{display: flex;
     flex-direction: column;}
+.nss{ border-radius: 1em;
+background-color:rgba(245, 245, 245, 0.971) ;
+padding: 1em 0em 1em 0em;
+margin-top: 1em;}
+.b7{ color: white;
+    background-color: rgba(0, 0, 255, 0.714);
+    border-radius: 2em;
+    padding: 1em 8em;
+    border: none;
+    font-size: 1rem;}
