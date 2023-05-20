@@ -11,6 +11,7 @@ width: 100%;
 justify-content: space-around;
 align-items: center;
 background-color: rgb(215, 122, 164);
+
 /* position: fixed;
 top: 0px;
 left: 0px;
@@ -47,11 +48,11 @@ body {padding: 12em 0 0 0; }  */
 /* seccion 1 */
 
 .dosdiv{display: flex;
-height: 95vh;
-justify-content: space-around;
+justify-content: space-between;
 background-color: aquamarine;
 padding: 5em 5em;
-align-items: center;} 
+align-items: center;
+height: 95vh;} 
 
 
 .psunoa{ width: 80%;}
@@ -101,14 +102,14 @@ align-items: center;}
 /* seccion 2 */
 .dossec{display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: rgb(129, 227, 111);
     padding: 5em 5em;
     align-items: center;}
 
 
-.hyp{display: flex;
-justify-content: space-around;
+.dossec .hyp{display: flex;
+justify-content: space-between;
 align-items: center;
 width: 100%;}
 .hyp .titulo{width: 60%;}
@@ -117,85 +118,84 @@ width: 100%;}
 
 .lorendos{width: 55%;
 text-align: justify;
-margin-right: 4em;
-}
+margin-right: 4em;}
 
-.cuatroimg{display: flex;
-justify-content: space-around;
+.dossec .cuatroimg{display: flex;
+justify-content: space-between;
 align-items: center;
-padding-top: 4em;
-}
+padding-top: 5em;}
 
+.cuatroimg .divimg{position: relative;
+width: 100%;}
 
-.imgssb{border-radius: 0.5em;
-height: 300%;
-width: 85%;}
+.cuatroimg .divimg .bimg{color: white;
+font-weight: bolder;
+font-size: 1rem;
+background-color: rgb(54, 50, 50);
+border: none;
+padding: 1em 2em;
+border-radius: 2em;
+position: absolute;
+left: 1em;
+top: 1em;}
 
+.cuatroimg .divimg .imgssb{border-radius: 0.5em;
+width: 95%;}
 
-.hssb{font-size: 2.5rem;
-margin-top: 0.5em;}
-.hhssb{color: grey;
-margin-left: 1em;}
+.cuatroimg .divimg .hssb{font-size: 2.5rem;
+padding:0.4em 0 0.4em 0;}
+.cuatroimg .divimg .hhssb{color: grey;
+padding-left: 1em;}
+
 .point{display: flex;
-margin-top: 1em;}
+padding-top: 1em;}
 
-.ulssb{display: flex;
-    justify-content: space-between;
-    padding: 5em 0em 6em 0em;
-    margin-left: 3em;
-    margin-right: 6em;
-    align-items: center;}
+.dossec .ulssb{display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 6em;
+    justify-content: space-between;}
 
 .b3{border: 0.1em solid rgb(115, 114, 114);
-    border-radius: 2em;
-    padding: 1em 3em 1em 3em;
+ border-radius: 2em;
+ padding: 0.8em 2.5em 0.8em 2.5em;
 font-weight: bolder;
 color: grey;
 font-size: 1.1rem;
 background-color: white;}
+ .b3:hover{background-color: black;
+color: white;}
 
 /* seccion 3 */
 
-.tercerass{display: flex;
+.terceras{display: flex;
 background-color: rgba(245, 245, 245, 0.971);
-padding: 4em; 
+padding: 5em 5em;
 justify-content: center;}
 
-.tressec{width: 100%;
-    justify-content: center;
-    align-items: center;
+.terceras .tressec{width: 100%;
+justify-content: center;
+align-items: center;
 margin-left: 4em;}
 
-.tressimg{border-radius: 1.5em;
-    width: 90%;}
-    
-.psstres{color: grey;
-        font-weight: bolder;
-        line-height: 2em;
-        font-size: 1.1rem;
-    margin-top: 1.5em;
-    margin-bottom:1.5em;
-    width: 85%;}
 
-.htres{font-size: 2.8rem;
+.tressec .tresimg{border-radius: 1.5em;
+width: 90%;}
+    
+.tressec .pstres{color: grey;
+font-weight: bolder;
+line-height: 2em;
+font-size: 1.1rem;
+margin-top: 1.5em;
+margin-bottom:1.5em;
+width: 85%;
+text-align: justify;}
+
+.tressec .htres{font-size: 2.8rem;
 margin-top: 1em;}
 
 /* seccion 4 */
-.cuasa{display: flex;
-    justify-content: space-between;
-align-items:center;
-padding: 4em 4em;}
-.cuader{width: 45%;}
-.hcua{font-size: 3rem;
-}
 
-.cuartb{display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 3em;
-padding: 2em 0em 2em 0em;}
-
-.cuartbb{margin-left: 2em;}
 
 .bcua{ color: white;
     background-color: rgba(0, 0, 0, 0.919);
@@ -205,18 +205,18 @@ padding: 2em 0em 2em 0em;}
     border: none;
    font-weight: bolder;}
 
-.hcuab{margin-top: 0.5em;
-margin-bottom: 0.5em;
-font-size: 2.5rem;}
+
 
 /* seccion 5 */
 
 .quintass{display: flex;
-justify-content:space-around ;}
+justify-content: space-around;
+background-color: aquamarine;
+padding: 5em 5em;
+align-items: center;} 
 
 .quintasec{width: 100%;
-    justify-content: space-around;
-    padding: 2em 1em 2em 5em;
+    justify-content: space-between;
 }
 
 .huno{font-size: 3rem;
@@ -226,17 +226,18 @@ margin-top: 1em;
 margin-bottom: 0.6em;
 margin-right: 1.5em;}
 
-.imgss5{border-radius: 1.5em;
-width: 90%;
-height: 95%;}
-
 .loren5{color: grey;
 font-weight: bolder;
 line-height: 2em;
 font-size: 1.1rem;
-margin-left: 3.5em;
+margin-left: 3.5em;}
 
-}
+.imgss5{border-radius: 1.5em;
+width: 90%;
+height: 95%;}
+
+
+
 /* seccion 6 */
 .sexb{display: flex;
     justify-content: space-around;
