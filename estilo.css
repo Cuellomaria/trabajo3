@@ -43,10 +43,9 @@ border:none;}
     box-shadow: 0em 0em 0.5em rgba(0, 0, 255, 0.714);}
 
 /* body
-body {padding: 12em 0 0 0; }  */
+body {padding: 12em 0 0 0; }  
 
 /* seccion 1 */
-
 .dosdiv{display: flex;
 justify-content: space-between;
 background-color: aquamarine;
@@ -54,12 +53,12 @@ padding: 5em 5em;
 align-items: center;
 height: 95vh;} 
 
+.psunoa{ width: 85%;}
 
-.psunoa{ width: 80%;}
-
-.psunoa .tuno{font-size: 4rem;
+.tuno{font-size: 4rem;
 color: rgba(0, 0, 0, 0.792);
 margin-bottom: 0.5em;}
+
 .loren1{color: grey;
 font-weight: bolder;
 line-height: 2em;
@@ -73,10 +72,9 @@ width: 80%;
 padding: 2em 0em 2em 2em; 
 background-color:rgba(243, 245, 248, 0.905);
 position: relative;
-border: none;
-text-align:justify}
+border: none;}
 .bar .luppa{position: absolute;
-margin-left: 2em;
+left: 5.5em;
 align-items: center;}
 .bar .b2{position: absolute;
     color: white;
@@ -85,7 +83,7 @@ align-items: center;}
     padding: 1em 2.5em;
     font-size: 1rem;
     border: none;
-    margin-left: 32em;}
+    left: 38em;}
     .bar .b2:hover{ transform:scale(1.1); 
         box-shadow: 0em 0em 0.5em rgba(0, 0, 255, 0.714); }
 
@@ -101,34 +99,33 @@ align-items: center;}
 
 /* seccion 2 */
 .dossec{display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: rgb(129, 227, 111);
-    padding: 5em 5em;
-    align-items: center;}
+flex-direction: column;
+justify-content: space-between;
+background-color: rgb(129, 227, 111);
+padding: 5em 5em;
+align-items: center;}
 
-
-.dossec .hyp{display: flex;
+.hyp{display: flex;
 justify-content: space-between;
 align-items: center;
 width: 100%;}
 .hyp .titulo{width: 60%;}
 
-.hyp .titulo .FL{font-size: 2.8rem;}
+.FL{font-size: 2.8rem;}
 
 .lorendos{width: 55%;
 text-align: justify;
 margin-right: 4em;}
 
-.dossec .cuatroimg{display: flex;
+.cuatroimg{display: flex;
 justify-content: space-between;
-align-items: center;
-padding-top: 5em;}
-
-.cuatroimg .divimg{position: relative;
+padding-top: 5em;
 width: 100%;}
 
-.cuatroimg .divimg .bimg{color: white;
+.divimg{position: relative;
+width: 100%;}
+
+.bimg{color: white;
 font-weight: bolder;
 font-size: 1rem;
 background-color: rgb(54, 50, 50);
@@ -139,26 +136,26 @@ position: absolute;
 left: 1em;
 top: 1em;}
 
-.cuatroimg .divimg .imgssb{border-radius: 0.5em;
+.divimg .imgssb{border-radius: 0.5em;
 width: 95%;}
 
-.cuatroimg .divimg .hssb{font-size: 2.5rem;
+.hssb{font-size: 2.6rem;
 padding:0.4em 0 0.4em 0;}
-.cuatroimg .divimg .hhssb{color: grey;
+ .hhssb{color: grey;
 padding-left: 1em;}
 
 .point{display: flex;
 padding-top: 1em;}
 
 .dossec .ulssb{display: flex;
-    width: 100%;
-    align-items: center;
-    padding-top: 6em;
-    justify-content: space-between;}
+width: 100%;
+align-items: center;
+padding-top: 6em;
+justify-content: space-between;}
 
 .b3{border: 0.1em solid rgb(115, 114, 114);
- border-radius: 2em;
- padding: 0.8em 2.5em 0.8em 2.5em;
+border-radius: 2em;
+padding: 0.8em 2.5em 0.8em 2.5em;
 font-weight: bolder;
 color: grey;
 font-size: 1.1rem;
@@ -176,12 +173,8 @@ justify-content: center;}
 .terceras .tressec{width: 100%;
 justify-content: center;
 align-items: center;
-margin-left: 4em;}
+margin-left: 3em;}
 
-
-.tressec .tresimg{border-radius: 1.5em;
-width: 90%;}
-    
 .tressec .pstres{color: grey;
 font-weight: bolder;
 line-height: 2em;
@@ -191,11 +184,19 @@ margin-bottom:1.5em;
 width: 85%;
 text-align: justify;}
 
-.tressec .htres{font-size: 2.8rem;
-margin-top: 1em;}
+.tressec .tresimg{border-radius: 1.5em;
+width: 90%;
+padding-bottom: 1em;}
+    
 
 /* seccion 4 */
+ .hyp .titulo4{width: 50%;}  
+ 
+.hyp .lorendos4{width: 45%;
+    text-align: justify;}
 
+.cuatroimg .div4{width: 24%;
+text-align:start;}
 
 .bcua{ color: white;
     background-color: rgba(0, 0, 0, 0.919);
@@ -206,38 +207,28 @@ margin-top: 1em;}
    font-weight: bolder;}
 
 
-
 /* seccion 5 */
 
 .quintass{display: flex;
-justify-content: space-around;
-background-color: aquamarine;
-padding: 5em 5em;
-align-items: center;} 
+justify-content: space-between;
+background-color: rgb(199, 194, 133);
+padding: 5em 5em;} 
 
-.quintasec{width: 100%;
-    justify-content: space-between;
-}
+.divizq{width: 45%;}
+.titulo5 .FL{margin-bottom: 0.5em;}
 
-.huno{font-size: 3rem;
-margin-bottom: 0.6em;}
-.hdos{font-size: 2.5rem;
-margin-top: 1em;
-margin-bottom: 0.6em;
-margin-right: 1.5em;}
+.items{margin-top: 1em;
+ padding-left: 1.2em; 
+align-items: center ;}
+.items .items3 .loren1{margin-left: 3em;}
+.items3{margin-bottom: 2em;}
+  .items3:hover{border-radius: 2em;
+         box-shadow: 1em 0em 3em rgba(162, 155, 155, 0.723); }
 
-.loren5{color: grey;
-font-weight: bolder;
-line-height: 2em;
-font-size: 1.1rem;
-margin-left: 3.5em;}
-
+.quintasec{width: 43%;}
 .imgss5{border-radius: 1.5em;
-width: 90%;
-height: 95%;}
-
-
-
+    width: 100%;}
+         
 /* seccion 6 */
 .sexb{display: flex;
     justify-content: space-around;
