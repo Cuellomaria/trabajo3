@@ -62,7 +62,7 @@ body {padding: 12em 0 0 0; }
  font-size: 1.1rem;}
 
 .bar{display: flex;
- padding: 2em 0em 2em 0em;
+ padding: 3em 0em 3em 0em;
  align-items: center;}
 .bar .Here{border-radius: 6em;
  width: 80%;
@@ -203,7 +203,6 @@ text-align:left;}
 /* seccion 5 */
 .quintass{display: flex;
 justify-content: space-between;
-align-items: center;
 padding: 5em 5em;} 
 
 .divizq{width: 45%;}
@@ -239,10 +238,11 @@ font-size: 1rem;
 margin-top: 0.5em;}
 
 /* seccion7 */
-.imgss7{border-radius: 1em;
-width: 80%;}
 
-.septssb{width: 60%; }
+.imgss7{border-radius: 1em;
+width: 90%;}
+
+.septssb{width: 52%; }
 
 .b7{ color: white;
     background-color: rgba(0, 0, 255, 0.714);
@@ -259,13 +259,9 @@ width: 80%;}
 justify-content: space-between;
 padding-top: 2em;}
 
-.imgchica1{width: 90%;
-border-radius: 1em;}
-.imgchica2{width: 75%; 
- border-radius: 1em; }
- .imgchica3{width: 95%;
- border-radius: 1em;}
-
+.imgchica{border-radius: 1em;
+width: 33%;
+padding: 0 0.5em 0 0;}
 
 /* footer */
 .foot{display: flex;
@@ -276,8 +272,7 @@ padding: 6em ;
 margin-bottom: 4em;}
 
 
-.ficono{ width: 28%;
-background-color:aquamarine}
+.ficono{ width: 28%;}
 .sietep{color: grey;
 font-weight: bolder;
 line-height: 2em;
@@ -287,9 +282,7 @@ margin-top: 0.5em;}
 
     
 .UL{display: flex;
-flex-direction: column;
-background-color: blueviolet;
-}
+flex-direction: column;}
 .pul{margin-bottom: 1em;}
 .ula{padding: 0.5em;
 text-decoration: none;
@@ -299,11 +292,8 @@ transition: 0.4s;}
 
 
 .GT{display: flex;
-    flex-direction: column;
-background-color: aqua;
-padding-left: 4em;
-
-}
+flex-direction: column;
+padding-left: 4em;}
 .fotic{display: flex;
     padding: 0.5em;
     margin-top: 0.5em;}
@@ -312,8 +302,7 @@ width: 60%; }
 
 
 .NS{display: flex;
- flex-direction: column;
-background-color:chocolate ;}
+ flex-direction: column;}
 .nss{ border-radius: 1.5em;
 background-color:rgba(245, 245, 245, 0.971) ;
 padding: 1em 0em 1em 0em;
