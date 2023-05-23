@@ -6,14 +6,15 @@ font-family: 'Red Hat Display', sans-serif;}
 
 /* header */
 header{display: flex;
-height: 12em;
+height: 8em;
 width: 100%;
 justify-content: space-around;
 align-items: center;
-/* position: fixed;
-top: 0px;
-left: 0px;
-right: 0px; */}
+position: fixed;
+z-index: 1;
+top:0xp
+
+}
 
 .LH{display: flex;
  align-content: center;}
@@ -25,7 +26,7 @@ font-weight: bolder;}
 width: 12%;}
 
 .ul{display: flex;}
-.ul a{padding: 0 1em;
+.ul a{margin: 0 1em;
 text-decoration: none;
 color: #000000;
 transition: 0.4s;}
@@ -48,7 +49,7 @@ body {padding: 12em 0 0 0; }
  justify-content: space-between;
  padding: 5em 5em;
  align-items: center;
- height: 95vh;} 
+ height: 90vh;} 
 
 .psunoa{ width: 85%;}
 
@@ -116,10 +117,11 @@ margin-right: 4em;}
 justify-content: space-between;
 padding-top: 5em;
 align-items: center;
-width: 100%;}
+}
 
 .divimg{position: relative;
-width: 100%;}
+width: 100%;
+}
 
 .bimg{color: white;
 font-weight: bolder;
@@ -131,17 +133,16 @@ border-radius: 2em;
 position: absolute;
 left: 1em;
 top: 1em;}
-
-.divimg .imgssb{border-radius: 0.5em;
+.divimg .imgssb{border-radius: 1em;
 width: 95%;}
-
 .hssb{font-size: 2.6rem;
 padding:0.4em 0 0.4em 0;}
- .hhssb{color: grey;
-padding-left: 1em;}
-
 .point{display: flex;
 padding-top: 1em;}
+.hhssb{color: grey;
+padding-left: 1em;}
+
+
 
 .dossec .ulssb{display: flex;
 width: 100%;
@@ -321,3 +322,23 @@ border:0.1em solid grey;}
 
 
     /* sector media queries */
+
+    @media screen and (min-width:1024px){
+        body{
+            background-color: red;
+        }
+    }
+    
+    /*tablet*/
+    @media screen and (min-width:768px) and (max-width:1023px){
+        body{
+            background-color: blue;
+        }
+    }
+    
+    /*celular*/
+    @media screen and (max-width:767px){
+    body{
+        background-color: green;
+    }
+    }
